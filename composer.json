@@ -1,0 +1,16 @@
+{
+    "name": "maina-david/facebook-graph-sdk",
+    "description": "Integrate to Facebook Graph API",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.0 || ^7.0",
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MainaDavid\\FacebookGraphSdk\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
